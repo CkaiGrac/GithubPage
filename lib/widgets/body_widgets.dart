@@ -88,7 +88,6 @@ class _BodyPageState extends State<BodyPage> {
                         padding: EdgeInsets.all(20),
                         child: MarkdownBody(
                           data: content,
-                          imageDirectory: 'assets/note/assets/',
                           selectable: true,
                         ),
                       ),
