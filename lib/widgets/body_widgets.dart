@@ -102,7 +102,7 @@ class _BodyPageState extends State<BodyPage> {
 
   void getContent(int noteName) {
     try {
-      rootBundle.loadString('note/0$noteName.md').then((value) {
+      rootBundle.loadString('assets/note/0$noteName.md').then((value) {
         print('note/0$noteName.md');
         setState(() {
           content = value;

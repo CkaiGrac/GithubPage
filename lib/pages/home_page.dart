@@ -59,7 +59,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   void getNoteList() {
-    rootBundle.loadString('config.json').then((jsonData) {
+    rootBundle.loadString('assets/config.json').then((jsonData) {
       var noteMap = json.decode(jsonData);
       setState(() {
         noteList = noteMap['note_list'];
