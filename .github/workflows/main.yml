@@ -27,8 +27,8 @@ jobs:
           git status
           
           git remote add origin https://${{secrets.commit_secret}}@github.com/CkaiGrac/GithubPage.git
-          git checkout -b github_page
+          git checkout -b gh-pages
           git add --all
           git commit -m "update"
-          git push origin github_page -f
+          git push origin gh-pages -f
           
